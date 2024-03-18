@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    background: linear-gradient(60deg, lightblue, darkblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+}
+
+h3 {
+    text-align: center;
+    background: darkblue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    text-align: center;
+    background: blue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+#ccondition {
+    background: blue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.tables {
+    border-spacing: 40px 20px;
+}
+
+.ftd {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.viewbox {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#inputerror {
+    background-color: lightcoral;
+    color: red;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package mainserver;
+
+service GreetingService {
+    rpc Greet (UserInfo) returns (ServerResponse) {}
+}
+
+message UserInfo {
+    string name = 1;
+}
+
+message ServerResponse {
+    string greetingMessage = 1;
+}

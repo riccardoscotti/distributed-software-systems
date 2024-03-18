@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Mashup</title>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="./mashup.js"></script>
+    <link rel="stylesheet" href="./mashup.css" />
+</head>
+
+<body>
+    <h1 id="titolo">Weather in Bologna</h1>
+    <hr class="linea">
+    <div class="viewbox">
+        <h3>Current weather</h3>
+        <table>
+            <tr>
+                <td>
+                    <h3><p id="ccondition"></p> <p id="cicon"></p></h3>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td id="ctemp">TEMPERATURE</td>
+                            <td id="cwind">WIND KPH</td>
+                        </tr>
+                        <tr>
+                            <td id="chumidity">HUMIDITY</td>
+                            <td id="cwinddir">WIND DIR</td>
+                        </tr>
+                        <tr>
+                            <td id="cprecipitation">PRECIPITATION</td>
+                            <td id="clastupdate">LAST UP</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="viewbox">
+        <h3>Next 24 hours</h3>
+        <table id="forecast" class="tables"></table>
+    </div>
+    <div class="viewbox">
+        <h3>Next 5 days</h3>
+        <table id="daily" class="tables"></table>
+    </div>
+</body>
+</html>

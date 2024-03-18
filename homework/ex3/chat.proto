@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package mainserver;
+
+service ChatService {
+    rpc GetInfo (Nothing) returns (ChatMessage) {}
+    rpc SendMessage (ChatMessage) returns (Nothing) {}
+}
+
+message ChatMessage {
+    string time = 1;
+    string senderName = 2;
+    string body = 3;
+}
+
+message Nothing {
+
+}
